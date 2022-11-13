@@ -13,8 +13,8 @@ export default function botlle() {
 
       <div className="flex justify-center h-max -mb-14">
         <div className="p-16 bg-neutral text-base-content md:rounded-t-[4.5rem] w-screen">
-          <div className="flex flex-col items-center ">
-            <h1 className="text-4xl font-bold text-primary">
+          <div className="flex flex-col items-center">
+            <h1 className="text-4xl font-bold text-primary text-center">
               Certificado de origen en blockchain
             </h1>
             <h1 className="text-2xl font-bold p-4 text-success">
@@ -55,13 +55,24 @@ export default function botlle() {
               Te están vendiendo este producto como si estuviera sellado. Puedes
               denunciar con sólo tocar un botón.
             </p>
-            <button className="btn-error btn-xs rounded-full sm:btn-sm md:btn-md lg:btn-lg w-full max-w-xs my-2 font-bold text-xl">
-              DENUNCIAR
-            </button>
+            <div className="justify-center">
+              <button className="btn btn-error rounded-full text-3xl">
+                DENUNCIAR
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  className="bi bi-eye-fill ml-3"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435zM8 4c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995A.905.905 0 0 1 8 4zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                </svg>
+              </button>
+            </div>
             <p className="text-center flex flex-col items center justify-left p-2 text-success">
               Debido a que nuestro dominio puede ser copiado, asegúrate de que
-              este sí sea
-              <span className="text-primary text-lg">www.certiblock.co;</span>
+              <span className="text-primary text-lg">este sí sea www.certiblock.co;</span>
               esto garantiza la legitimidad.
             </p>
           </div>
